@@ -8,7 +8,7 @@ test virtual-environment=DEFAULT_VIRTUAL_ENVIRONMENT:
     VIRTUAL_ENVIRONMENT="{{ virtual-environment }}"
 
     . $VIRTUAL_ENVIRONMENT/bin/activate
-    pytest
+    pytest -x
 
 
 setup-virtual-environment virtual-environment=DEFAULT_VIRTUAL_ENVIRONMENT:
